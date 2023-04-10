@@ -4,5 +4,5 @@ print (1200 + 452)
 peso = input ('Quantos KG voce pesa?')
 idade = input ('Qual a sua idade?')
 nome = input ('Qual seu nome?')
-print(nome, idade, peso)
+print('Olá', nome, 'Seja bem-vindo seu velho de', idade, 'anos, que pesa', peso)
 
