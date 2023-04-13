@@ -12,9 +12,33 @@ n2 = int((input('Digite outro numero:')))
 s = n1 + n2
 print('O resultado de {} mais {} é igual á {}'.format(n1,n2,s))"""
 
-a = input ('Digite algo: ')
+"""a = input ('Digite algo: ')
 
 if (a.isalpha() == True):
    print('É alfabetico')
-else: print('Não é alfabetico')
-   
+else: print('Não é alfabetico')"""
+
+"""temperaturaMedia = []
+temperaturaMedia.append(31.9)
+temperaturaMedia.append(35.4)
+temperaturaMedia.append(25.4)
+temperaturaMedia.append(23.4)
+temperaturaMedia.append(33.2)
+
+for i in temperaturaMedia: 
+   print(i)
+2
+   n = int(input('Digite um número: '))
+   print('O numero antes de {} é {}, e o posterior é {} porem contincua sendo o numero {}'.format(n, (n-1), (n+1), n))"""
+
+"""num = int(input('Digite um numero: '))
+print('O dobro de {} é {}' .format(num, (num*2)))
+print('O triplo de {} é {}\nA raiz quadrada de {} é igual {:.2f}'
+      .format(num, (num*3), num, num**(1/2)))"""
+
+n1 = float(input('Primeira nota do aluno: '))
+n2 = float(input('Segunda nota do aluino: '))
+
+print('Media final do aluno {:.1f}'.format((n1+n2) /2))
+
+  
