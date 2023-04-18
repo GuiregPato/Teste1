@@ -42,7 +42,14 @@ n2 = float(input('Segunda nota do aluino: '))
 print('Media final do aluno {:.1f}'.format((n1+n2) /2))"""
 
 #TABUADA 
-n = int(input('Digite um numero:'))
+"""n = int(input('Digite um numero: '))
 print('-----------------------\n{} X 1 = {}\n{} X 2 = {}\n{} X 3 = {}\n{} X 4 = {}\n{} X 5 = {}\n{} X 6 = {}\n{} X 7 = {}\n{} X 8 = {}\n{} X 9 = {}\n{} X 10 = {}\n-----------------------'.format(n, n*1,n,n*2,n,n*3,n,n*4,n,n*5,n,n*6,n,n*7,n,n*8,n,n*9,n,n*10))
 
+r = float(input('Quanto você tem na carteira? '))
+c = r / 4.99
+print('Você pode comprar {:.2f} US$'.format(c))2"""
   
+P = float(input('Qual o Salario atual? R$'))
+A = P * 4/100
+D = P + (P * 4/100)
+print('Com base valor salarial de {}, + o adicional de 4% ({:.2f}) o seu salario atual sera de {:.2f}'.format(P,A,D))
