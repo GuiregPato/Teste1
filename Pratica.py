@@ -47,9 +47,14 @@ print('-----------------------\n{} X 1 = {}\n{} X 2 = {}\n{} X 3 = {}\n{} X 4 = 
 
 r = float(input('Quanto você tem na carteira? '))
 c = r / 4.99
-print('Você pode comprar {:.2f} US$'.format(c))2"""
+print('Você pode comprar {:.2f} US$'.format(c))2
   
 P = float(input('Qual o Salario atual? R$'))
 A = P * 4/100
 D = P + (P * 4/100)
 print('Com base valor salarial de {}, + o adicional de 4% ({:.2f}) o seu salario atual sera de {:.2f}'.format(P,A,D))
+
+Dias = float(input('Por quantos dias você alugou o carro? '))
+KM = float(input('Quantos km você rodou? '))
+Aluguel = Dias * 60 + (KM *0.70)
+print('Seu aluguel ficou um total de {}'.format(Aluguel))"""
