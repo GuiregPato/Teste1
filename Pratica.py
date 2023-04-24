@@ -57,4 +57,11 @@ print('Com base valor salarial de {}, + o adicional de 4% ({:.2f}) o seu salario
 Dias = float(input('Por quantos dias você alugou o carro? '))
 KM = float(input('Quantos km você rodou? '))
 Aluguel = Dias * 60 + (KM *0.70)
-print('Seu aluguel ficou um total de {}'.format(Aluguel))"""
+print('Seu aluguel ficou um total de {}'.format(Aluguel))
+from math import trunc
+num = float(input('Digite um numero: '))1
+print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, trunc(num)))"""
+num = float(input('Digite um numero: '))
+print('O valor digitado foi {}, e a sua porção inteira é {}'.format(num, int(num)))
+
+
